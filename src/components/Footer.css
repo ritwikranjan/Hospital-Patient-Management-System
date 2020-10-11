@@ -7,4 +7,15 @@
     justify-content: space-evenly;
     font-size: 18px;
     font-weight: 500;
-  }
+}
+.footer-bottom {
+  background: #3498DB;
+  color: white;
+  padding: 20px 0px 20px;
+}
+.copyright-text{
+  text-decoration: none;
+}
+.copyright-text:hover{
+  text-decoration: none;
+}
