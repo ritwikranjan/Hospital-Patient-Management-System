@@ -16,7 +16,7 @@ app.get('/api',(req, res) => {
     };
     res.json(data);
 });
-app.get('/api/name',(req, res) => {
+app.get('/api/names',(req, res) => {
     const data = {
         username: 'Palak Yadav',
         age: 21
