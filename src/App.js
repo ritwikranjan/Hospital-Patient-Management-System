@@ -6,6 +6,7 @@ import Home from './components/Home';
 import ContactUs from'./components/ContactUs';
 import Emergency from'./components/Emergency';
 import AboutUs from'./components/AboutUs';
+import Login from './components/Login'
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 
@@ -20,7 +21,7 @@ function App() {
                         <Route path="/contact-us" exact component = {ContactUs} />
                         <Route path="/emergency" exact component = {Emergency} />
                         <Route path="/about-us" exact component = {AboutUs} />
-
+                        <Route path="/login" exact component = {Login} />
                 </Switch>
             </Router>
         </div>

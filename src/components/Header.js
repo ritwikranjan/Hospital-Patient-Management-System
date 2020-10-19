@@ -26,6 +26,7 @@ class Header extends React.Component {
                               <Link class="emergency" to="/emergency">
                                   EMERGENCY 24x7
                               </Link>
+                              <Link class="link" to="/login"> LOGIN </Link>
                               <Link style = {{ marginRight: "15px" }} class="link" to="/contact-us"> CONTACT US </Link>
 
                     </Nav>
